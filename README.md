@@ -21,11 +21,11 @@ if __name__=="main"
   promedio=sum/len(lista_r)
   print("Tu promedio es:",promedio)
 ```
-**Entrada por consola:** 
+- **Entrada por consola:** 
 ```python
 '3 4 5 6 7' #Se ingresa una cadena
 ```
-**Salida de consola:** 
+- **Salida de consola:** 
 ```python
 Tus numeros son:  [3.0, 4.0, 5.0, 6.0, 7.0]
 Tu promedio es: 5.0
@@ -50,9 +50,9 @@ for i in range(len(vec1)):
 p_dot=sum(resultado)
 print("Producto punto entre ambos: ",p_dot)
 ```
-**Entradas de consola:** '1 2 3 4 5' , '5 4 3 2 1'
+- **Entradas de consola:** '1 2 3 4 5' , '5 4 3 2 1'
 
-**Salida de consola:** 
+- **Salida de consola:** 
 
 Producto punto de 2 vectores
 
@@ -67,9 +67,9 @@ Vector 2 = [5, 4, 3, 2, 1]
 Producto punto entre ambos:  35
 
 #### Caso de error (la longitud de ambos vectores es distinta)
-**Entradas de consola:** '2 3 4' , '2 3'
+- **Entradas de consola:** '2 3 4' , '2 3'
 
-**Salida de consola:**
+- **Salida de consola:**
 
 Producto punto de 2 vectores
 
@@ -94,31 +94,31 @@ Vector 2 = [4, 3, 2]
 Producto punto entre ambos:  25
 
 ### 3. Ceros en un arreglo de numeros
-Este reto pudo hacerce de una manera mas simple, pero quice darle una poco de "vida" asi que hice que los valores que tomara el arreglo de numeros sean completamente aleatoreos
+Este reto pudo hacerce de una manera mas simple, pero quice darle una poco de "vida" asi que hice que los valores que tomara el arreglo de numeros sean completamente aleatoreos :)
 
 ```python
-import random #Los valores que tomara el arreglo seran completamente aleatoreos :)
+import random
 arreglo=[]
-for i in range(19):
+for i in range(19): #Cantidad de elementos del arreglo: 19
   arreglo.append(random.randint(0,9)) 
 print(arreglo)
 ceros=arreglo.count(0)
-print("Hay un total de %s ceros en la lista" % ceros)
+print("Hay un total de %s ceros en el arreglo" % ceros)
 ```
-**Ejemplos de salidas aleatoreas:**
+- **Ejemplos de salidas aleatoreas:**
 
 [6, 1, 4, 8, 3, 4, 8, 8, 5, 6, 6, 2, 7, 4, 7, 4, 0, 0, 4, 8]
 
-Hay un total de 2 ceros en la lista
+Hay un total de 2 ceros en el arreglo
 
 -------------------------------------------------------------------
 
 [0, 6, 4, 5, 8, 1, 2, 0, 4, 0, 6, 5, 0, 0, 8, 1, 5, 0, 9]
 
-Hay un total de 6 ceros en la lista
+Hay un total de 6 ceros en el arreglo
 
 -------------------------------------------------------------------
 
 [2, 1, 7, 1, 4, 4, 5, 0, 9, 5, 7, 4, 2, 1, 9, 9, 1, 7, 1]
 
-Hay un total de 1 ceros en la lista
+Hay un total de 1 ceros en el arreglo
